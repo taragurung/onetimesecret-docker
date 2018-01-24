@@ -3,20 +3,20 @@
   :domain: localhost
   :ssl: false
   # NOTE Once the secret is set, do not change it (keep a backup offsite)
-  :secret: CHANGEME
+  :secret: password
 :redis:
-  :uri: 'redis://user:CHANGEME@127.0.0.1:7179/0?timeout=10&thread_safe=false&logging=false'
+  :uri: 'redis://user:tara@127.0.0.1:7179/0?timeout=10&thread_safe=false&logging=false'
   :config: /etc/onetime/redis.conf
 :colonels:
   # Accounts created with the following email addresses
   # are automatically considered admins of the system.
-  - CHANGEME@EXAMPLE.com
+  - taraprasd336@gmail.com
 :emailer:
   :mode: :sendgrid
-  :account: CHANGEME
-  :password: CHANGEME
-  :from: CHANGEME@example.com
-  :fromname: CHANGEME
+  :account: taraprasd336@gmail.com
+  :password: password
+  :from: onepass@example.com
+  :fromname: onepass
   :bcc:
 # Use the following email config to enable SMTP
 # support and remove the :emailer config above.
